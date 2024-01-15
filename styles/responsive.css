@@ -1,0 +1,30 @@
+@media screen and (max-width:600px) {
+
+
+    /* nav responsive css */
+   .header-section{
+        display: flex;
+        flex-direction: column;
+    } 
+    .nav-container h2{
+        font-size: 21.543px;
+    }
+    .nav-container .logo-tag{
+        
+        font-size: 21.543px;
+        
+    }
+    .nav-items{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+
+
+
+
+
+
+}
