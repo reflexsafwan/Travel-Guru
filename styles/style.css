@@ -9,13 +9,13 @@ body{
 }
 /* common css */
 .container{
-    max-width: 1250px;
-    margin: 0 auto;
+padding: 0px 10%;
+    /* margin: 0 auto; */
 }
 
 /* nav css */
 .header-section{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     margin-top: 2%;
 }
@@ -60,4 +60,106 @@ body{
 }
 .nav-items a:focus{
     color: #FF5400;
+}
+
+/* banner area css  */
+/* .banner-container{
+    border-radius: 16px;
+background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url(/images/Group\ 13.png) center/cover;
+min-height: 500px;
+border: 2px solid red;
+position: relative;
+max-width: 100%;
+
+} */
+
+.hero-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url(/images/Group\ 13.png) center/cover;
+    min-height: 500px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.hero-content h2{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 24px;
+
+}
+.hero-content p{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    margin-bottom: 48px;
+}
+.hero-input input{
+    padding: 16px;
+    border-radius: 8px;
+    border: none;
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-right: 15px;
+}
+.hero-input select{
+    padding: 16px 45px;
+    border-radius: 8px;
+    border: none;
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 15px;
+}
+.hero-input button{
+    padding: 16px 34px;
+    border: none;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+
+/* responsive css */
+
+@media screen and (max-width: 600px) {
+   .hero-input{
+    display: flex;
+    flex-direction: column;
+    margin-right: 0px;
+   }
+   .hero-input input{
+    margin:10px 20px ;
+    padding: 20px;
+    
+   }
+   .hero-input select{
+    margin-right: 0px;
+    margin:10px 20px ;
+   }
+   .hero-input button{
+    margin:10px 20px ;
+   }
+
 }

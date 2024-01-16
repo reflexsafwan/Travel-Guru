@@ -1,5 +1,7 @@
 @media screen and (max-width:600px) {
-
+.container{
+    padding: 20px;
+}
 
     /* nav responsive css */
    .header-section{
@@ -20,10 +22,11 @@
     }
 
 
-
-
-
-
+/* banner responsive css */
+    /* .hero-input{
+        display: flex;
+        flex-direction: column;
+    } */
 
 
 
