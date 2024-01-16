@@ -519,6 +519,17 @@ line-height: 60px; /* 150% */
     width: 100%;
 }
 
-
+/* vedio area responsive css */
+.vedio-area-container{
+    display: flex;
+    flex-direction: column;
+}
+.vedio-content{
+    width: 100%;
+}
+.vedio{
+    width: 100%;
+    margin-top: 20px;
+}
 
 }
