@@ -10,6 +10,7 @@ body{
 /* common css */
 .container{
 padding: 0px 10%;
+margin-bottom: 100px;
     /* margin: 0 auto; */
 }
 
@@ -140,10 +141,63 @@ max-width: 100%;
 
 }
 
+/* tour section css */
+.tour-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+.tour-content h2{
+    color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-bottom: 24px;
+}
+.tour-content P{
+    color: rgba(19, 19, 24, 0.70);
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+margin-bottom: 24px;
+}
+.tour-content ul li{
+    color: rgba(19, 19, 24, 0.70);
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+margin-left: 40px;
+margin-bottom: 24px;
+}
+.tour-content button{
+    border-radius: 8px;
+    border: none;
+    padding: 14px 32px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+
+}
 
 /* responsive css */
 
 @media screen and (max-width: 600px) {
+.container{
+    margin-bottom: 24px;
+}
+
    .hero-input{
     display: flex;
     flex-direction: column;
@@ -155,11 +209,24 @@ max-width: 100%;
     
    }
    .hero-input select{
-    margin-right: 0px;
-    margin:10px 20px ;
+        margin-right: 0px;
+        margin:10px 20px ;
    }
    .hero-input button{
-    margin:10px 20px ;
+        margin:10px 20px ;
    }
+/* tour container responsive */
+
+    .tour-container{
+            display: flex;
+            flex-direction: column      ;
+            align-items: center;
+          
+        
+     }
+     .tour-image{
+        margin-top: 24px;
+     }
+
 
 }
